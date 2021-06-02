@@ -2,6 +2,7 @@ import calc.Arithmetic;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.lang.Float;
+// import java.lang.Math;
 
 public class Calculator {
 	public static void main(String[] args) {
