@@ -2,7 +2,6 @@ import calc.Arithmetic;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.lang.Float;
-import java.lang.Math;
 
 public class Calculator {
 	public static void main(String[] args) {
@@ -65,6 +64,10 @@ public class Calculator {
 				result = Arithmetic.power(num1Float, num2Float);
 			} else if (operator.equals("mod")){
 				result = Arithmetic.mod(num1Float, num2Float);
+			} else if (operator.equals("random")) {
+				result = Arithmetic.rand(num1Float, num2Float);
+			} else if (operator.equals("multiplyCubes")) {
+				result = Arithmetic.multiplyCubes(num1Float, num2Float);
 			} else {
 				System.out.println("Please provide an operator and two numbers.");
 				continue;
